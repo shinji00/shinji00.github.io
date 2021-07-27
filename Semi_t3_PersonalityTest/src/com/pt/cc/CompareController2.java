@@ -1,0 +1,31 @@
+package com.pt.cc;
+import java.io.IOException;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/CompareController2")
+public class CompareController2 extends HttpServlet {
+	
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		String myName = request.getParameter("myName");
+		String myMbti = request.getParameter("mbtiResult");
+		String fName = request.getParameter("fName");
+		
+		ResultMbtiSet myR = new ResultMbtiSet(myName, myMbti);
+		ResultDAO.searchResult(request);
+		ResultMbtiSet friendR = (ResultMbtiSet) request.getAttribute("friendR");
+		
+		request.setAttribute("myR", myR);
+		request.setAttribute("friendR", friendR);
+		
+		request.getRequestDispatcher("jsp/compareOutput.jsp").forward(request, response);
+	}
+
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		
+	}
+
+}

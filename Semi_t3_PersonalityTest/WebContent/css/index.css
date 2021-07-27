@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body{
+	background-color: #ffdfe4;
+	cursor: url("purinangel.cur"), auto;
+
+}
+
+
+.front {
+	position: relative;
+	margin-top: 150px;
+	
+}
+
+#title {
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	cursor: url("purinangel.cur"), auto;
+	
+}
+
+#logo {
+	margin-left: 50px;
+	margin-top: 2px;
+}
+
+#start {
+	background-color: white;
+	color: #ff84af;
+	text-align: center;
+	font-size: 40px;
+	border-radius: 5px;	
+	cursor: url("purin.cur"), auto;
+	
+}
+
+#share {
+	background-color: white;
+	color: #ffbbc7;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 5px;	
+	cursor: url("purin.cur"), auto;
+}
+
+

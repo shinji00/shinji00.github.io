@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>산리오 성격테스트</title>
+<link rel="stylesheet" href="css/index.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+<style>
+* {
+font-family: 'Jua', sans-serif;
+cursor: url(crosshair.cur), auto;
+}
+</style>
+<script type="text/javascript">
+function copy(val){
+	const t = document.createElement("textarea");
+	document.body.appendChild(t);
+	t.value = val;
+	t.select();
+	document.execCommand('copy');
+	document.body.removeChild(t);
+}
+
+function urlClipCopy(){
+	var url = window.document.location.href;
+	copy(url);
+	alert("클립보드에 URL이 복사되었습니다");
+}
+
+</script>
+</head>
+<body>
+
+<form action="TestController" method="post">
+
+
+<div class="front" style="text-align: center">
+<img id="title" src="img/title.jpg" width="600px">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div id="logo" style="text-align: center">
+<img src="img/logo.jpg" width="750px">
+</div>
+<br>
+<br>
+
+<center>
+<input name="n" value=0 type="hidden">
+<input name="a" value=0 type="hidden">
+<input name="b" value=0 type="hidden">
+<input name="c" value=0 type="hidden">
+<input name="d" value=0 type="hidden">
+<input name="e" value=0 type="hidden">
+<input name="f" value=0 type="hidden">
+<input name="g" value=0 type="hidden">
+<input name="h" value=0 type="hidden">
+<button id="start" style="height: 60px; width: 200px;">테스트 시작</button>
+
+</form>
+
+
+<br>
+<br>
+<br>
+
+<div class="btn" style="text-align: center">
+
+<img src="img/share.jpg" width="42px">
+<img src="img/btn2.jpg" width="42px">
+<img src="img/btn4.jpg" width="42px">
+<img src="img/btn3.jpg" width="42px">
+<br>
+
+<form onsubmit="urlClipCopy();">
+<button id="share">친구에게 공유하기</button>
+</form>
+
+
+
+</div>
+</center>
+
+		
+</body>
+</html>

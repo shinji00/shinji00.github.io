@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context>
+	<Resource
+	name="ksj"
+	type="javax.sql.DataSource"
+	driverClassName="oracle.jdbc.driver.OracleDriver"
+	factory="org.apache.tomcat.dbcp.dbcp2.BasicDataSourceFactory"
+	username="C##sj"
+	password="sj"
+	url="jdbc:oracle:thin:@localhost:1521:xe"
+	maxTotal="30"
+	maxIdle="30"
+	/>
+</Context>

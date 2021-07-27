@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+
+body{
+	background-color: rgb(255, 223, 228);
+	cursor: url("purinangel.cur"), auto;
+
+}
+
+#rTbl{
+	margin: auto;
+	border : rgb(254, 141, 177) solid 3px ;
+	border-radius: 50px;
+	width: 650px;
+	height: 500px;
+	background-color: rgb(254, 196, 215);
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+.r1{
+	color: white;
+	font-size: 20pt;
+	width: 100%;
+}
+
+.r2{
+	padding-top: 30px;
+	color: rgb(253, 51, 117);
+	font-size: 30pt;
+}
+
+.r3{
+	background-color: white;
+	color: rgb(253, 51, 117);
+	width: 180px;
+	height: 30px;
+	text-align: center;
+	font-size: 15pt;
+}
+
+.g{
+	color: #76534e;
+	font-size: 20pt;
+}
+
+.i{
+	align-content: center;
+	padding-top: 20px;
+	color: white;
+	font-size: 20pt;
+}
+
+
+
+
+
+.rt{
+	color: #ffffff;
+	font-size: 20pt;
+	text-shadow: -2px 0 rgb(255, 81, 147), 0 2px rgb(255, 81, 147), 
+	2px 0 rgb(255, 81, 147), 0 -2px rgb(255, 81, 147); 
+	padding-bottom: 30px;
+}
+
+#resultB{
+	padding-top: 50px;
+	align-content: center;
+	margin: auto;
+}
+
+.rbtn{
+	margin-top: 30px;
+	width : 200px;
+	height : 60px;
+	border-radius : 20px;
+	border : rgb(254, 141, 177) solid 3px ;
+	color: #ffecf5;
+	background-color: rgb(254, 105, 154);
+	font-size : 18pt;
+	text-align: center;
+	cursor: url("purin.cur"), auto;
+}
+
+.rbtn:hover{
+
+	color: rgb(253, 51, 117);
+	background-color: #ffecf5;
+}
+
+
+.rbtn2{
+	margin-top : 30px;
+	width : 200px;
+	height : 60px;
+	border-radius : 20px;
+	border : rgb(254, 141, 177) solid 3px ;
+	color: #ffecf5;
+	background-color: rgb(254, 105, 154);
+	font-size : 18pt;
+	text-align: center;
+	cursor: url("purin.cur"), auto;
+}
+
+.rbtn2:hover{
+	color: rgb(253, 51, 117);
+	background-color: #ffecf5;
+}
